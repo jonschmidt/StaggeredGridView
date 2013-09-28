@@ -32,7 +32,7 @@
         <dependency>
             <groupId>android.support</groupId>
             <artifactId>compatibility-v4</artifactId>
-            <version>11</version>
+            <version>18</version>
         </dependency>
     </dependencies>
 
@@ -54,7 +54,7 @@
             <plugin>
                 <groupId>com.jayway.maven.plugins.android.generation2</groupId>
                 <artifactId>android-maven-plugin</artifactId>
-                <version>3.4.1</version>
+                <version>3.6.1</version>
                 <configuration>
                     <sdk>
                         <platform>16</platform>
@@ -65,7 +65,7 @@
             <plugin>
                 <groupId>com.jayway.maven.plugins.android.generation2</groupId>
                 <artifactId>android-maven-plugin</artifactId>
-                <version>3.4.1</version>
+                <version>3.6.1</version>
                 <extensions>true</extensions>
                 <configuration>
                     <nativeLibrariesDirectory>ignored</nativeLibrariesDirectory>
